@@ -6,7 +6,7 @@
 <Header />
 
 <main>
-	<slot /> <!--where Everything is inserted into such as out page routes--> 
+	<slot />
 </main>
 
 <footer>
