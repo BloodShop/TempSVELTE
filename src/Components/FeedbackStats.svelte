@@ -9,7 +9,7 @@
 
 <div class="feedback-stats">
   <h4>{count} Reviews</h4>
-  <h4>Rating Average: {average}</h4>
+  <h4>Rating Average: {Math.round((average + Number.EPSILON) * 100 ) / 100}</h4>
 </div>
 
 <style> 
